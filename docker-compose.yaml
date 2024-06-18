@@ -1,5 +1,3 @@
-version: "3.4"
-
 x-logging: &default
   options:
     max-size: "50m"
