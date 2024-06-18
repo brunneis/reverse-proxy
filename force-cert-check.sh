@@ -1,4 +1,4 @@
 #!/bin/bash
-docker-compose down
+docker compose down
 sudo su -c 'echo "" > ./data/checksum'
-docker-compose up -d
+docker compose up -d
